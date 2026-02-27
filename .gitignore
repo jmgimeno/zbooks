@@ -1,0 +1,32 @@
+# SBT build outputs
+target/
+project/target/
+project/project/
+
+# SBT boot and cache
+.sbt/
+
+# IDE files
+.idea/
+.bsp/
+.metals/
+.vscode/
+
+# Scala.js output directories
+modules/frontend/target/
+
+# Node / Tailwind dev artifacts
+node_modules/
+frontend-assets/node_modules/
+frontend-assets/dist/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# H2 database files (local dev, if stored outside Docker)
+*.mv.db
+*.trace.db
+
+# Compiled class files
+*.class

@@ -1,0 +1,7 @@
+target/
+.git/
+.gitignore
+*.md
+node_modules/
+frontend-assets/node_modules/
+frontend-assets/dist/
